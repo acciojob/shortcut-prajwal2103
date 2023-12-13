@@ -2,7 +2,7 @@ function shortcut(s1, s2) {
   let a="";
 	if(s1=='' || s2==''){
 		
-		return 10;
+		return a;
 	}
 	return s1.charAt(0)+s2.charAt(0);
 }
